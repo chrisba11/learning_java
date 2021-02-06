@@ -4,5 +4,7 @@ public class PrintTests
   {
     int num1 = 12;
     System.out.println(num1 * 0.25);
+    System.out.println(num1 / 4);
+    System.out.println(num1 / 5);
   }
 }
