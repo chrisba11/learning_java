@@ -1,14 +1,16 @@
+import java.util.Scanner;
+
 public class PrintTests
 {
   public static void main(String[] args)
   {
-    short num1, num2, num3;
+    int number;
+    Scanner keyboard = new Scanner(System.in);
 
-    num1 = 10;
-    num2 = 20;
-    num3 = (short)(num1 + num2);
-    System.out.println(num3);
+    System.out.println("Enter an integer value: ");
+    number = keyboard.nextInt();
 
+    System.out.println("You typed: " + number);
 
   }
 }
