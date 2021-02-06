@@ -8,5 +8,7 @@ public class MyName
 
     System.out.print("Chris ");
     System.out.println("Ball");
+
+    System.out.println("Testing out the \\b escape sequence by deleting words \b\b\b\b\b.");
   }
 }
