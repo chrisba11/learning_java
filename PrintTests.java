@@ -2,6 +2,7 @@ public class PrintTests
 {
   public static void main(String[] args)
   {
-    System.out.println("Enter a value that is greater than zero and less than 10. ");
+    int num1 = 12;
+    System.out.println(num1 * 0.25);
   }
 }
